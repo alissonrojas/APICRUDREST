@@ -7,4 +7,4 @@ require_once "models/get.model.php";
             return getModel::obtenerEmpleados();        
         }
         
-    }
+    } 

@@ -8,8 +8,6 @@ if(str_contains($endpointPrincipal, "empleados")){
     $id = $body["id"];
     $nombre = $body["nombre"];
     $apellido = $body["apellido"];
-    $correo = $body["correo"];
-    $edad = $body["edad"];
     echo json_encode($respose -> agregarEmpleados($id, $nombre, $apellido, $correo, $edad));   
     
 }
